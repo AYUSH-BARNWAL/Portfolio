@@ -114,7 +114,7 @@ const Navbar = () => {
             <GithubIcon />
           </motion.a>
           <motion.a
-            href="#"
+            href="https://www.instagram.com/b_for_beluga/"
             target={"_blank"}
             whileHover={{ y: -5 }}
             className="w-6 mx-3"

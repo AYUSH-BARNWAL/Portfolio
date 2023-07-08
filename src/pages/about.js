@@ -75,7 +75,7 @@ const About = () => {
 
           <Skills />
           <Experience />
-          <Education />
+          {/* <Education /> */}
         </Layout>
       </main>
     </>

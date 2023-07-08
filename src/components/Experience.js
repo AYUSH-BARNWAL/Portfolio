@@ -30,7 +30,9 @@ const Details = ({ position, company, time, work }) => {
               word === "Organized" ||
               word === "managed" ||
               word === "Designed" ||
-              word === "Led"
+              word === "Led" ||
+              word === "engaging" ||
+              word === "conducting"
             ) {
               return (
                 <span
@@ -95,7 +97,7 @@ const Experience = () => {
     offset: ["start end", " center start"],
   });
   return (
-    <div className="my-64 dark:text-light">
+    <div className="mt-64 dark:text-light">
       <h2 className="font-bold text-8xl mb-32 w-full text-center md:text-6xl sx:text-4xl md:mb-16">
         Experience
       </h2>
@@ -109,7 +111,7 @@ const Experience = () => {
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2 ">
           <Details
             position="General Secretary"
-            company="NSS, BIT Mersa"
+            company="NSS, BIT Mesra"
             time="Feb'22-Present"
             work={`Organized and managed two successful blood donation camps as well as two prabhat feris, ensuring smooth logistics,
             volunteer coordination, and maximum participation. Led a team of executive members, effectively delegating tasks and collaborating
